@@ -3,6 +3,7 @@
 // import { readFile } from "node:fs";
 import { readdir } from "fs/promises";
 import path from "path";
+// import prompt from "prompt";
 
 // fs.promises.readdir;
 // async function -> await result
@@ -33,6 +34,9 @@ function Show() {
 Recursion(2);
 Recursion(5);
 // params = dirPath
+
+// let response = new prompt();
+// console.log(response);
 listAllJs("/Users/yuyuovo/Documents/teckyio/WSP004/WSP004");
 // success file name
 // .gitignore
