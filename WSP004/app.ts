@@ -8,6 +8,10 @@ console.log(u == false);
 console.log(n == true);
 console.log(n == false);
 
+// check value && type
+// backend recommend ===
+console.log("undefined", n == undefined);
+console.log("null", u == null);
 // let undefinedObj = u + 1
 let myText = null;
 //
