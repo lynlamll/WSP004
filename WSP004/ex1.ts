@@ -37,7 +37,7 @@ Recursion(5);
 
 // let response = new prompt();
 // console.log(response);
-listAllJs("/Users/yuyuovo/Documents/teckyio/WSP004/WSP004");
+listAllJs("{YourDirPath}");
 // success file name
 // .gitignore
 // app.ts
@@ -70,7 +70,7 @@ function pathJoin(myDir: string, filename: string) {
 }
 
 // let joinedPath = pathJoin(
-//   "/Users/yuyuovo/Documents/teckyio/WSP004/WSP004/",
+//   "{Your Dir Path}",
 //   "ex1.ts"
 // );
 // console.log(joinedPath);

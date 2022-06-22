@@ -31,7 +31,7 @@ function pathBaseURL(dirPath: string, fileType: string) {
 }
 
 let baseURL = pathBaseURL(
-  "/Users/yuyuovo/Documents/teckyio/WSP004/WSP004",
+  "{YourDirPath}",
   ".ts"
 );
 console.log("test file type function", baseURL);
